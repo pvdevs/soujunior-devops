@@ -8,10 +8,7 @@ Cada contribuição, por menor que seja, tem um impacto significativo para nossa
 
 ## Código de Conduta
 
-- Seja amigável e respeitoso com todos os membros da comunidade.
-- Mantenha uma comunicação clara e construtiva.
-- Seja paciente e inclusivo, considerando diferentes níveis de conhecimento e experiências.
-- Comportamentos tóxicos ou discriminatórios não serão tolerados.
+Por favor, certifique-se de que leu e entendeu nosso [Código de Conduta](./CODIGO_DE_CONDUTA.md).
 
 ---
 
@@ -29,23 +26,18 @@ Cada contribuição, por menor que seja, tem um impacto significativo para nossa
 
 - Use o formato [Conventional Commits](https://www.conventionalcommits.org/pt-br/) para suas mensagens de commit.
 - Mantenha as mensagens claras e concisas.
-- Use os seguintes tipos de commits:
-  - `feat` para novas funcionalidades.
-  - `fix` para correções de bugs.
-  - `docs` para atualizações na documentação.
-  - `style` para alterações no estilo do código.
-  - `refactor` para refatorações.
-  - `perf` para melhorias de performance.
-  - `test` para adição de testes.
-  - `build` para alterações na build.
-  - `ci` para alterações na configuração de CI.
-  - `chore` para alterações no processo de compilação ou em ferramentas e bibliotecas auxiliares, como a geração de documentação
+
+**Exemplos**:
+
+- `feat(paginacao): adiciona suporte para navegação entre páginas`
+- `fix(css): corrige alinhamento de botões na página inicial`
 
 ---
 
 ### Branching
 
-- [Trunk-based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development): Utilizamos essa estratégia, onde todas as alterações são feitas diretamente na branch `main`. Isso ajuda a manter o código-fonte limpo e evita a complexidade de gerenciar muitas branches.
+Utilizamos a estratégia de [Trunk-based Development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development), onde todas as alterações são feitas diretamente na branch main. Essa abordagem ajuda a manter o código-fonte limpo e reduz a complexidade de gerenciar múltiplas branches.
+
 - **Práticas**:
   - Não usamos feature branches.
   - Todas as alterações devem ser baseadas na branch `main`.
@@ -72,23 +64,16 @@ Antes de abrir um Pull Request:
 
 ### Títulos de Pull Request
 
-Use o seguinte formato para os títulos dos Pull Requests:
-
-```
-tipo: breve-descrição
-```
+Os títulos dos Pull Requests devem seguir um padrão semelhante ao utilizado nas mensagens de commit, baseado no [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Isso ajuda a manter consistência e clareza em todo o processo de contribuição.
 
 **Regras para Títulos de Pull Requests**:
 
 - **Forma Ativa e Imperativa**: Escreva no presente, como se estivesse dando uma ordem (e.g., "adiciona suporte").
 - **Sem Ponto Final**: Não use ponto no final do título.
 - **Clareza**: O título deve ser claro e direto, permitindo que outros entendam a mudança de forma rápida.
+- **Consistência com Conventional Commits**: Utilize os mesmos tipos definidos no padrão de commits, como `feat`, `fix`, `docs`, `refactor`, entre outros.
 
 **Exemplo**:
-
-```
-feat(cadastro): adiciona confirmacao de email
-```
 
 **Exemplos de Títulos Ruins** (para evitar):
 
@@ -96,11 +81,12 @@ feat(cadastro): adiciona confirmacao de email
 - `Adicionando novas features`
 - `Atualização`
 
-**Exemplos de Títulos Bons** (para usar):
+**Exemplos de Títulos Bons** (para seguir):
 
 - `feat(cadastro): adiciona confirmacao de email`
 - `fix(login): corrige recuperacao de senha`
-- `refactor(cadastro): refatora confirmacao de email`
+
+Seguir esse padrão garante que os títulos dos Pull Requests sejam informativos e consistentes, facilitando o entendimento e a organização do histórico de mudanças no projeto.
 
 ### Features Grandes
 
@@ -110,7 +96,7 @@ Para features grandes:
 - Abra um Pull Request para cada parte.
 - Forneça documentação relevante.
 
-### Recebendo Ajuda
+## Recebendo Ajuda
 
 Se você precisar de ajuda:
 
