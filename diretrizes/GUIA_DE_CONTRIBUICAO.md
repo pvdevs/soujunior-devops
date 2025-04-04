@@ -19,13 +19,18 @@ Por favor, certifique-se de que leu e entendeu nosso [Código de Conduta](./CODI
 1. Fork o repositório.
 2. Clone o repositório para sua máquina local.
 3. Siga as instruções do repositório para instalar e rodar a aplicação.
+4. Crie uma branch para sua contribuição.
 
 ---
 
 ### Padrão de Commits
 
-- Use o formato [Conventional Commits](https://www.conventionalcommits.org/pt-br/) para suas mensagens de commit.
-- Mantenha as mensagens claras e concisas.
+Adotamos o formato Conventional Commits para garantir consistência e clareza nas mensagens de commit. Esse padrão facilita o entendimento das mudanças realizadas no projeto e ajuda na organização do histórico de commits.
+
+**Práticas**:
+
+- Use mensagens claras e concisas.
+- Siga o formato definido pelo Conventional Commits, utilizando tipos como `feat` para novas funcionalidades e `fix` para correções de bugs.
 
 **Exemplos**:
 
@@ -72,8 +77,6 @@ Os títulos dos Pull Requests devem seguir um padrão semelhante ao utilizado na
 - **Sem Ponto Final**: Não use ponto no final do título.
 - **Clareza**: O título deve ser claro e direto, permitindo que outros entendam a mudança de forma rápida.
 - **Consistência com Conventional Commits**: Utilize os mesmos tipos definidos no padrão de commits, como `feat`, `fix`, `docs`, `refactor`, entre outros.
-
-**Exemplo**:
 
 **Exemplos de Títulos Ruins** (para evitar):
 
